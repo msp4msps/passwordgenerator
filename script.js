@@ -1,7 +1,5 @@
 // Assignment Code
 
-// Add event listener to generate button
-// generateBtn.addEventListener("click", writePassword);
 // Get the modal
 var modal = document.getElementById("myModal");
 
@@ -28,6 +26,8 @@ window.onclick = function (event) {
   }
 };
 
+//Selections
+
 var alpha = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
 var symbols = "!@#$%^&*_-+=";
@@ -39,6 +39,8 @@ var includeSym = document.getElementById("symbols");
 var includeUpper = document.getElementById("uppercase");
 var includeLower = document.getElementById("lowercase");
 var length = document.getElementById("length");
+
+//Generate A Password after Selections have been made
 
 document
   .getElementById("generatePass")
